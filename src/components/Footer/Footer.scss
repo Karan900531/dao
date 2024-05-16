@@ -1,0 +1,93 @@
+.footer-wrapper {
+  margin-top: 62px;
+  display:none;
+  background: var(--background);
+  padding: 28px 18px;
+  margin-left: var(--margin-open);
+  @media (max-width: 992px) {
+    display:block;
+    margin-left: 0;
+  }
+  .footer-container {
+    .para {
+      p {
+        font-size: 11px;
+        line-height: 18px;
+        color: var(--search-clr);
+        text-align: center;
+        @media (max-width: 992px) {
+          display: none;
+        }
+      }
+    }
+
+    .footer-content {
+      justify-content: space-between;
+      @media (max-width: 992px) {
+        margin-top: 0;
+      }
+      @media (max-width: 872px) {
+        flex-direction: column-reverse;
+      }
+
+      .media {
+        gap: 14px;
+        margin-top: 22px;
+        @media (max-width: 872px) {
+          margin-top: 14px;
+        }
+        a {
+          color: #fff;
+          cursor: pointer;
+          svg {
+            width: 18px;
+            color: var(--text-primary-clr);
+          }
+        }
+      }
+      .footer-second-content {
+        gap: 18px;
+        @media (max-width: 992px) {
+          display: block;
+        }
+        .app-icon {
+          gap: 2px;
+          cursor: pointer;
+          @media (max-width: 992px) {
+            order: 1;
+          }
+        }
+        .list-navigation {
+          .links {
+            gap: 18px;
+            @media (max-width: 670px) {
+              display: grid;
+              grid-template-columns: 1fr 1fr;
+              gap: 6px;
+              margin-bottom: 14px;
+            }
+            a {
+              color: var(--text-secondary-clr);
+              font-size: 13px;
+              &:hover {
+                color: var(--footer-text-hover-clr);
+              }
+            }
+          }
+          p {
+            color: var(--search-clr);
+            font-size: 12px;
+            margin-top: 8px;
+
+            span a {
+              color: var(--text-secondary-clr);
+              &:hover {
+                color: var(--footer-text-hover-clr);
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

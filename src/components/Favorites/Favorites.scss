@@ -1,0 +1,85 @@
+.favorites-wrapper {
+  height: 1000px;
+  position: sticky;
+  top: 0;
+  overflow-y: hidden;
+
+  @media (max-width: 768px) {
+    height: auto;
+    position: initial;
+    order: 3;
+  }
+
+  &::-webkit-scrollbar {
+    width: 4px;
+  }
+  &::-webkit-scrollbar-thumb {
+    background: var(--search-icon-bg-clr);
+    border-radius: 22px;
+  }
+
+  .favorites-container {
+    height: fit-content;
+    background: var(--background);
+    border-radius: 12px;
+    padding: 1rem;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    margin-top: 10px;
+  }
+
+  p {
+    color: var(--white-clr);
+  }
+
+  &-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    > p {
+      font-style: normal;
+      -moz-osx-font-smoothing: grayscale;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 20px;
+      text-transform: uppercase;
+      color: var(--white-clr);
+
+      svg {
+        width: 12px;
+        height: 12px;
+      }
+    }
+
+    > div {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+
+      span {
+        width: 28px;
+        height: 28px;
+        cursor: pointer;
+        display: grid;
+        place-items: center;
+        border-radius: 50%;
+        transition: all 200ms linear;
+
+        &:hover {
+          background-color: rgba(0, 0, 0, 0.4);
+        }
+      }
+
+      svg {
+        width: 16px;
+        height: 16px;
+      }
+    }
+  }
+
+  .dropdown {
+    width: fit-content;
+  }
+}

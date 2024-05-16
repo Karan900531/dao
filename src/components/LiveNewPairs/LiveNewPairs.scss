@@ -1,0 +1,257 @@
+.live-new-pairs-wrapper {
+  padding: 22px;
+  h2 {
+    font-size: 32px;
+  }
+  .para {
+    justify-content: space-between;
+    p {
+      font-size: 13px;
+      color: var(--white);
+      margin: 14px 0 26px;
+      span {
+        color: #6c89ff;
+      }
+    }
+    .search-input {
+      background: var(--background);
+      border-radius: 21px;
+      max-width: 400px;
+      width: 100%;
+
+      input {
+        outline: none;
+        border: none;
+        background: transparent;
+        width: 100%;
+        padding: 10px 12px;
+        color: var(--white);
+        &::placeholder {
+          color: var(--search-clr);
+        }
+      }
+    }
+  }
+}
+
+.textAlign-center {
+  text-align: center;
+}
+.loss {
+  justify-content: center;
+  background: #ea3943;
+  border-radius: 6px;
+  padding: 3px 7px;
+  max-width: 60px;
+  width: 100%;
+  text-align: center;
+
+  p {
+    color: var(--white);
+  }
+}
+
+.profit {
+  justify-content: center;
+  background: #17c671;
+  border-radius: 6px;
+  padding: 5px 7px;
+  max-width: 60px;
+  width: 100%;
+  text-align: center;
+
+  p {
+    color: var(--white);
+  }
+}
+.flex-start {
+  svg {
+    color: var(--icon-secondary-clr);
+  }
+}
+
+.flex-end {
+  margin-left: -16px;
+  svg {
+    color: var(--icon-secondary-clr);
+  }
+}
+
+.pending {
+  justify-content: center;
+  background: #f8f9fa;
+  color: #212529;
+  border-radius: 6px;
+  padding: 5px 7px;
+  max-width: 60px;
+  width: 100%;
+  text-align: center;
+
+  p {
+    color: var(--white);
+  }
+}
+
+.table-wrapper {
+  width: 100%;
+  overflow-x: auto;
+  white-space: nowrap;
+  overflow-y: hidden;
+  &::-webkit-scrollbar {
+    height: 8px;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  thead {
+    th {
+      background: none;
+      border: none;
+      color: #142028;
+      padding: 0;
+      font-size: 13px;
+      font-weight: 500;
+      color: #ffba00;
+      background-color: var(--background);
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      padding: 12px 5px 12px 12px;
+
+      > span {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      svg {
+        width: 12px;
+        height: 12px;
+        margin-left: 2px;
+
+        path {
+          fill: #818ea3;
+        }
+      }
+    }
+  }
+
+  table thead th {
+    cursor: pointer;
+    border-bottom: 0.0625rem solid var(--light-clr);
+  }
+
+  td {
+    height: 70px;
+    border-bottom: 0.0625rem solid var(--light-clr);
+  }
+
+  .row-header {
+    display: flex;
+    align-items: flex-start;
+    padding: 0 10px;
+
+    > img {
+      width: 22px;
+      height: 22px;
+      border-radius: 50%;
+    }
+
+    .flex-column {
+      > h4 {
+        display: flex;
+        align-items: center;
+        color: #ffba00;
+        text-transform: uppercase;
+        font-family: var(--font-light);
+
+        span {
+          color: #818ea3;
+          font-size: 12px;
+        }
+      }
+      .copy-address {
+        gap: 8px;
+        p {
+          color: #ffba00;
+          font-size: 13px;
+          margin-top: 6px;
+        }
+        svg {
+          width: 12px;
+        }
+      }
+    }
+  }
+
+  span {
+    svg {
+      width: 14px;
+      height: 14px;
+      margin-left: 4px;
+    }
+  }
+  .sidebar-flex-container {
+    .drop-down-icon {
+      transition: all 0.5s ease-out;
+      &:hover {
+        transform: rotate(-180deg);
+      }
+    }
+  }
+
+  .flex {
+    img {
+      margin-right: 10px;
+    }
+  }
+  .clock-icon {
+    span {
+      svg {
+        width: 13px;
+        height: 13px;
+        margin-right: 6px;
+      }
+    }
+  }
+  .date-and-time {
+    text-align: center;
+    span {
+      text-align: center;
+    }
+    p {
+      text-align: center;
+      margin-top: 4px;
+    }
+  }
+}
+
+.pagination-controls {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: 20px;
+  gap: 20px;
+
+  button {
+    background-color: var(--drop-down-clr);
+    color: #818ea3;
+    font-size: 14px;
+    outline: none;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+
+    &:hover {
+      background-color: var(--over-all-bg-clr);
+    }
+
+    &:disabled {
+      cursor: no-drop;
+    }
+  }
+}

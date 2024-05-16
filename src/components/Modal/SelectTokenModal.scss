@@ -1,0 +1,21 @@
+.SelectTokenModal {
+  .token-btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: all 200ms linear;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    color: white;
+    padding: 5px 15px;
+
+    &:hover {
+      background-color: rgba(0, 0, 0, 0.5);
+    }
+
+    &.active {
+      background-color: rgba(0, 0, 0, 0.8);
+    }
+  }
+}

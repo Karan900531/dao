@@ -1,0 +1,158 @@
+ .formo {
+    display: block !important;
+    width: 100%;
+    padding:20px;
+    padding-bottom: 40px;
+    border-radius: 10px;
+    background-color:var(--background) ;
+    overflow: hidden;
+}
+
+
+.inputreques ,.selectiondropdownreques,.custom-button-reques{
+
+  margin-top: 20px;}
+
+.inputrequest {
+    background-color: transparent;
+    border: none;
+    height: 40px;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-bottom: 2px solid #cccccc;
+    border-radius: 3px;
+    width: 100%;
+    font-size: 14px;
+
+    color:#ffba00;
+    outline: none; /* Remove the outline on focus */
+}
+
+.inputrequest::placeholder {
+    color: #cccccc;
+    font-size: 14px;
+
+}
+
+/* Updated the selector to target .inputrequest on focus */
+.inputrequest:focus {
+    background-color: transparent;
+    border: none;
+    height: 40px;
+    color:#ffba00;
+
+    margin-bottom: 10px;
+    padding: 5px;
+    border-bottom: 2px solid #cccccc;
+    border-radius: 3px;
+    width: 100%;
+}
+
+.formgrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+}
+
+
+/* Style the custom select dropdown */
+.selectiondropdownrequest {
+    width: 100%;
+    height:40px;
+    border:none;
+    border-bottom: 2px solid #cccccc;
+    border-radius: 3px;
+    background-color: transparent;
+    color: #cccccc;
+    font-size: 14px;
+  }
+  .selectiondropdownrequest select option:checked {
+    background-color: transparent;
+    color: #ffba00;
+    outline: none;
+
+  }
+  
+  /* Style the dropdown options */
+  .selectiondropdownrequest select option {
+    background-color: transparent;
+    color: #ffba00;
+    outline: none;
+
+    font-size: 14px;
+    padding: 5px;
+  }
+  
+  /* Style the focus state */
+  .selectiondropdownrequest select:focus {
+    outline: none;
+    background-color: transparent;
+
+    border-color: #ffba00;
+    box-shadow: 0 2px 6px rgba(255, 186, 0, 0.5);
+  }
+
+
+  .optionss{
+    color:#ffba00;
+    background-color: transparent;
+
+  }
+
+
+  .selectiondropdownrequest option {
+    font-size: 16px;
+    padding: 5px 10px;
+    background-color: transparent; /* Set the background color to transparent */
+    color: #000; /* Set the text color */
+  }
+
+
+  .descrequest,.descrequest:focus{
+    height:100px;
+    resize:none;
+  }
+
+
+
+  .custom-button-request{
+    background-color: #23323c;
+    color:#ffba00;
+    border:1px solid #000;
+    padding:13px 38px;
+    font-size:16px;
+    border-radius:7px;
+  }
+
+
+  @media (max-width: 768px) {
+
+  }
+
+  .maino{
+    padding:0px
+  }
+
+  
+  @media (max-width: 768px) {
+    .maino{
+      padding:10px
+    }
+
+    .formo {
+      display: block !important;
+      width: 100%;
+      padding:20px;
+      padding-bottom: 40px;
+      border-radius: 10px;
+      background-color:var(--background) ;
+      overflow: hidden;
+  }
+  
+
+.formgrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  column-gap: 20px;
+}
+  }

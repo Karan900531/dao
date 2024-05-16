@@ -1,0 +1,191 @@
+.pairExplorer-details-wrapper {
+  background: var(--background);
+  border-radius: 12px;
+  padding: 24px 22px;
+  height:fit-content;
+  margin-bottom: 1rem;
+
+  .pairExplorer-details-container {
+    display: grid;
+    justify-content: space-between;
+    .first-step {
+      .flex-item {
+        gap: 12px;
+        img {
+          width: 32px;
+          height: 32px;
+          border-radius: 22px;
+        }
+        h4 {
+          font-size: 24px;
+          span {
+            font-size: 22px;
+            font-family: var(--font-light);
+            color: var(--search-clr);
+          }
+        }
+
+        svg {
+          width: 16px;
+        }
+      }
+      .dext-tool-content {
+        h6 {
+          font-size: 27px;
+          font-family: var(--font-medium);
+          letter-spacing: 0.8px;
+          margin-top: 30px;
+
+          @media screen and (max-width: 757px) {
+            font-size: 22px;
+        
+          }
+        }
+
+        .namings{
+          font-size: 22px;
+          font-family: var(--font-light);
+          letter-spacing: 0.8px;
+          line-height: 1.2;
+          color:white;
+          margin-top: 30px;
+          @media screen and (max-width: 757px) {
+            font-size: 16px;
+        
+          }
+        }
+
+        .namingsr{
+          font-size: 16px;
+          font-family: var(--font-light);
+          letter-spacing: 0.8px;
+          line-height: 1.2;
+          margin-top: 30px;
+
+          @media screen and (max-width: 757px) {
+            font-size: 13px;
+        
+          }
+        }
+
+        .soro{
+          margin-top: 10px;
+        
+        }
+        .flex-item {
+          gap: 18px;
+          p {
+            svg {
+              width: 12px;
+              margin-left: 12px;
+            }
+          }
+        }
+        .icons {
+          gap: 12px;
+          margin: 14px 0;
+          svg {
+            width: 16px;
+          }
+        }
+        .dot-circle {
+          width: 28px;
+          height: 28px;
+        }
+      }
+    }
+    .second-step {
+      .flex-item {
+        gap: 12px;
+        h1 {
+          font-size: 28px;
+        }
+        .eth {
+          h6 {
+            font-size: 14px;
+            color: var(--green-clr);
+            font-family: var(--font-light);
+          }
+          p {
+            font-size: 13px;
+          }
+        }
+      }
+
+      .date-and-hour {
+        background: var(--drop-down-clr);
+        padding: 8px 18px;
+        border-radius: 8px;
+        justify-content: space-between;
+        margin: 8px 0;
+        cursor: pointer;
+        p {
+          padding: 4px 8px;
+          border-radius: 6px;
+          &:hover {
+            background: var(--over-all-bg-clr);
+            color: var(--white);
+          }
+        }
+      }
+    }
+  }
+}
+
+.circle {
+  justify-content: center;
+  background: var(--drop-down-clr);
+  width: 32px;
+  height: 32px;
+  border-radius: 32px;
+}
+
+.pariExplorer-container {
+  width: 100%;
+  display:grid;
+  grid-template-columns: 70% auto;
+  gap:20px;
+  overflow-x: hidden;
+
+  @media screen and (max-width: 757px) {
+    grid-template-columns: 1fr;
+
+  }
+}
+
+.pairExplorer-details-tabs-wrapper {
+  background: var(--background);
+  border-radius: 12px;
+  overflow: hidden;
+
+  &-header {
+    display: flex;
+    padding: 1.2rem 0.6rem;
+    justify-content: space-between;
+    gap: 1rem;
+    flex-wrap: wrap;
+    align-items: center;
+
+    > p {
+    
+        color: var(--white-clr);
+        margin-top: -10px;
+       }
+  }
+}
+
+.candlestick-chart {
+  width: 100%;
+}
+
+
+
+/* Existing CSS code */
+
+@media screen and (max-width: 757px) {
+  .pairExplorer-details-wrapper .pairExplorer-details-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Rest of the existing CSS code */

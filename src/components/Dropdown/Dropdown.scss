@@ -1,0 +1,93 @@
+.dropdown {
+  background-color: var(--drop-down-clr);
+  border-radius: 0.5rem;
+  position: relative;
+  width: 270px;
+
+  &-header {
+    border-radius: 0.5rem;
+    border: none;
+    padding: 0.56875rem 0.65rem;
+    margin: 0.1875rem;
+    background-color: transparent;
+    border-radius: 0.8125rem;
+    font-style: normal;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight: 400;
+    line-height: 16px;
+    color: #818ea3;
+    font-size: 13px;
+    white-space: nowrap;
+    transition: all 200ms linear;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+
+    > span {
+      display: flex;
+      align-items: center;
+      padding-right: 40px;
+      color: var(--white-clr);
+
+      svg {
+        width: 12px;
+        height: 12px;
+        margin-right: 5px;
+      }
+
+      img {
+        width: 15px;
+        height: 15px;
+        object-fit: contain;
+        margin-right: 8px;
+      }
+    }
+
+    > svg {
+      width: 15px;
+      height: 15px;
+    }
+  }
+
+  &-content {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: var(--background);
+    border-radius: 0.5rem;
+    z-index: 100;
+    padding: 0.56875rem 0;
+    max-height: 200px;
+    overflow-y: auto;
+
+    > div {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0.56875rem 0.75rem;
+      cursor: pointer;
+
+      &:hover {
+        background-color: var(--over-all-bg-clr);
+      }
+
+      span {
+        font-size: 13px;
+        display: flex;
+        align-items: center;
+
+        img {
+          width: 21px;
+          height: 21px;
+          object-fit: contain;
+        }
+      }
+
+      > svg {
+        width: 13px;
+        height: 13px;
+      }
+    }
+  }
+}

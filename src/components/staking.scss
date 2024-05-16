@@ -1,0 +1,516 @@
+.stakingnewtop{
+    display: grid;
+    width: 80%;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 20px;
+    gap:20px;
+
+}
+
+.stakingnewtopc{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 20px;
+    gap:20px;
+
+}
+
+.stakingnewtop div{
+    background-color: var(--background);
+    padding:20px;
+    border-radius: 8px;
+}
+
+
+.stakingnewtopc div{
+    background-color: var(--background);
+    padding:20px;
+    border-radius: 8px;
+}
+
+.stakingnewall{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.stakingcolone{
+    padding:20px;
+    
+
+    .totalgrid{
+        padding:0;
+        margin: 10px 0;
+        color:#fff;
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap:20px;
+        p{
+            color:#fff
+        }
+    }
+    h2{
+        color:#fff;
+        font-size: 22px;;
+    }
+    p{
+        color:#b5b5b5;
+        font-size: 14px;
+    }
+    .inputone{
+background-color: var(--over-all-bg-clr);
+color:#b5b5b5;
+
+.divthreemain{
+    background-color: transparent;
+}
+.divthree{
+    background-color: transparent;
+
+}
+
+button{
+    width:100%;
+    background-color: #ffba00;
+    font-weight: 500;
+    color:#000;
+    margin-top: 15px;
+    border-radius: 100px;
+    border:none;
+    padding:10px;
+  }
+
+  .buttons{
+    text-decoration: none;
+    width:100%;
+    background-color: #ffba00;
+    font-weight: 500;
+    color:#000;
+    margin-top: 30px;
+    border-radius: 100px;
+    border:none;
+    padding:10px 80px;
+  }
+  .searchBar-icons{
+    background-color: transparent;
+    color:#fff;
+  }
+.searbarh{
+    display: flex;
+    background-color: var(--over-all-bg-clr);
+    input {
+        outline: none;
+        border: none;
+        background: transparent;
+        padding: 12px 12px;
+        color: #fff;
+        width: 100%;
+
+        font-size: 14px;
+        &::placeholder {
+          color:#fff;
+        }
+        /* Styles for the .searbar when input inside it is in focus */
+      }
+}
+
+    }
+}
+
+
+  .tokengridtwo{
+    display: grid;
+    width:100%;
+    margin-top: 20px;;
+    grid-template-columns: 1fr 1fr ;
+    gap:20px;
+
+    div{
+        background-color: var(--background);
+        padding:20px;
+        width:100%;
+        border-radius: 8px;
+    }
+  }
+
+
+
+  @media (max-width: 600px) {
+
+    .stakingnewtop{
+        display: grid;
+        width: 100%;
+        grid-template-columns: 1fr;
+        margin-top: 20px;
+        gap:20px;
+    
+    }
+    
+    
+    .stakingnewtop div{
+        background-color: var(--background);
+        padding:20px;
+        border-radius: 8px;
+    }
+    
+    .stakingnewall{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    
+    .stakingcolone{
+        padding:20px;
+        
+    
+        .totalgrid{
+            padding:0;
+            margin-top: 20px;
+            color:#fff;
+            display:grid;
+            grid-template-columns: 1fr 1fr;
+            column-gap:20px;
+            p{
+                color:#fff
+            }
+        }
+        h2{
+            color:#fff;
+            font-size: 22px;;
+        }
+        p{
+            color:#b5b5b5;
+            font-size: 14px;
+        }
+        .inputone{
+    background-color: var(--over-all-bg-clr);
+    color:#b5b5b5;
+    
+    .divthreemain{
+        background-color: transparent;
+    }
+    .divthree{
+        background-color: transparent;
+    
+    }
+    
+    button{
+        width:100%;
+        background-color: #ffba00;
+        font-weight: 500;
+        color:#000;
+        margin-top: 15px;
+        border-radius: 100px;
+        border:none;
+        padding:10px;
+      }
+    
+      .searchBar-icons{
+        background-color: transparent;
+        color:#fff;
+      }
+    .searbarh{
+        display: flex;
+        background-color: var(--over-all-bg-clr);
+        input {
+            outline: none;
+            border: none;
+            background: transparent;
+            padding: 12px 12px;
+            color: #fff;
+            width: 100%;
+    
+            font-size: 14px;
+            &::placeholder {
+              color:#fff;
+            }
+            /* Styles for the .searbar when input inside it is in focus */
+          }
+    }
+    
+        }
+    }
+    
+    
+      .tokengridtwo{
+        display: grid;
+        width:100%;
+        margin-top: 20px;;
+        grid-template-columns: 1fr;
+        gap:20px;
+    
+        div{
+            background-color: var(--background);
+            padding:20px;
+            width:100%;
+            border-radius: 8px;
+        }
+      }
+    
+  }
+
+
+  
+.stakingcolonec{
+    padding:20px;
+    
+
+    .totalgrid{
+        padding:0;
+        margin-top: 20px;
+        color:#fff;
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap:20px;
+        p{
+            color:#fff
+        }
+    }
+    h2{
+        color:#fff;
+        font-size: 22px;;
+    }
+    p{
+        color:#b5b5b5;
+        font-size: 14px;
+    }
+    .inputone{
+background-color: var(--over-all-bg-clr);
+color:#b5b5b5;
+
+.divthreemain{
+    background-color: transparent;
+}
+.divthree{
+    background-color: transparent;
+
+}
+
+button{
+    width:100%;
+    background-color: #ffba00;
+    font-weight: 500;
+    color:#000;
+    margin-top: 15px;
+    border-radius: 100px;
+    border:none;
+    padding:10px;
+  }
+
+  .searchBar-icons{
+    background-color: transparent;
+    color:#fff;
+  }
+.searbarh{
+    display: flex;
+    background-color: var(--over-all-bg-clr);
+    input {
+        outline: none;
+        border: none;
+        background: transparent;
+        padding: 12px 12px;
+        color: #fff;
+        width: 100%;
+
+        font-size: 14px;
+        &::placeholder {
+          color:#fff;
+        }
+        /* Styles for the .searbar when input inside it is in focus */
+      }
+}
+
+    }
+}
+
+
+  .tokengridtwo{
+    display: grid;
+    width:80%;
+    margin-top: 20px;;
+    grid-template-columns: 1fr 1fr;
+    gap:20px;
+
+    div{
+        background-color: var(--background);
+        padding:20px;
+        width:100%;
+        border-radius: 8px;
+    }
+  }
+
+
+
+  @media (max-width: 600px) {
+
+    .stakingnewtop{
+        display: grid;
+        width: 100%;
+        grid-template-columns: 1fr;
+        margin-top: 20px;
+        gap:20px;
+    
+    }
+    
+    
+    .stakingnewtop div{
+        background-color: var(--background);
+        padding:20px;
+        border-radius: 8px;
+    }
+    
+    .stakingnewall{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+
+    .stakingnewtopc{
+        display: grid;
+        width: 100%;
+        grid-template-columns: 1fr;
+        gap:20px;
+    
+    }
+    
+    .stakingcolone{
+        padding:20px;
+        
+    
+        .totalgrid{
+            padding:0;
+            margin-top: 20px;
+            color:#fff;
+            display:grid;
+            grid-template-columns: 1fr 1fr;
+            column-gap:20px;
+            p{
+                color:#fff
+            }
+        }
+        h2{
+            color:#fff;
+            font-size: 22px;;
+        }
+        p{
+            color:#b5b5b5;
+            font-size: 14px;
+        }
+        .inputone{
+    background-color: var(--over-all-bg-clr);
+    color:#b5b5b5;
+    
+    .divthreemain{
+        background-color: transparent;
+    }
+    .divthree{
+        background-color: transparent;
+    
+    }
+    
+    button{
+        width:100%;
+        background-color: #ffba00;
+        font-weight: 500;
+        color:#000;
+        margin-top: 15px;
+        border-radius: 100px;
+        border:none;
+        padding:10px;
+      }
+    
+      .searchBar-icons{
+        background-color: transparent;
+        color:#fff;
+      }
+    .searbarh{
+        display: flex;
+        background-color: var(--over-all-bg-clr);
+        input {
+            outline: none;
+            border: none;
+            background: transparent;
+            padding: 12px 12px;
+            color: #fff;
+            width: 100%;
+    
+            font-size: 14px;
+            &::placeholder {
+              color:#fff;
+            }
+            /* Styles for the .searbar when input inside it is in focus */
+          }
+    }
+    
+        }
+    }
+    
+    
+      .tokengridtwo{
+        display: grid;
+        width:100%;
+        margin-top: 20px;;
+        grid-template-columns: 1fr;
+        gap:20px;
+    
+        div{
+            background-color: var(--background);
+            padding:20px;
+            width:100%;
+            border-radius: 8px;
+        }
+      }
+    
+  }
+
+  .custom-tooltip{
+    padding:10px;
+  }
+
+  .chartop{
+    background-color: var(--background);
+    padding:20px;
+    border-radius: 10px;
+  }
+
+  
+  .chartops{
+    background-color: var(--background);
+    padding:20px;
+    border-radius: 10px;
+  }
+
+
+
+
+  .pool_list_section{
+    display: grid;
+    padding:20px;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:30px;
+  }
+
+
+  .pool_box{
+    border-radius: 10px;;
+    background-color: var(--background);
+    padding:15px;
+  }
+
+
+
+  .avg_pool{
+    font-size: 20px;
+  }
+
+  .pool_percentage{
+    font-size: 30px;
+    color:#ffba00;
+
+  }

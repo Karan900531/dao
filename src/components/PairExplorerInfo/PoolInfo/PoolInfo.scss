@@ -1,0 +1,43 @@
+.pool-info-wrapper {
+  .pool-info-container {
+    padding: 12px 18px;
+
+    h4 {
+      margin: 8px 0;
+      font-family: var(--font-light);
+      font-size: 14px;
+    }
+    .poolInfo-content {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+
+      p {
+        margin: 2px 0;
+        color: var(--white);
+      }
+    }
+  }
+  .more-less-btn {
+    width: 100%;
+    border: none;
+    outline: none;
+    background: var(--drop-down-clr);
+    padding: 8px 12px;
+    color: var(--white-clr);
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    cursor: pointer;
+    .chevron-icon {
+      gap: 6px;
+      justify-content: center;
+      p {
+        font-size: 13px;
+        color: var(--white-clr);
+      }
+      svg {
+        width: 11px;
+        color: var(--text-primary-clr);
+      }
+    }
+  }
+}

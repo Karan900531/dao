@@ -1,0 +1,17 @@
+.avatar-img-content {
+  position: relative;
+  img {
+    width: 18px;
+    border-radius: 32px;
+  }
+  .profile-img img {
+    position: absolute;
+    top: -5px;
+    right: -8px;
+    border-radius: 32px;
+    background: white;
+    width: 14px;
+    height: 14px;
+    object-fit: contain;
+  }
+}

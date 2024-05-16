@@ -1,0 +1,62 @@
+.comment-wrapper {
+  background: var(--background);
+  border-radius: 12px;
+  margin-top: 12px;
+
+  .comment-head {
+    background: var(--drop-down-clr);
+    padding: 8px 14px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    h5 {
+      font-family: var(--font-light);
+      font-size: 12px;
+      letter-spacing: 0.5px;
+    }
+  }
+  .profile-content {
+    padding: 6px 18px;
+    height: 350px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    &::-webkit-scrollbar {
+      width: 8px;
+    }
+    &::-webkit-scrollbar-thumb {
+      background: var(--search-icon-bg-clr);
+      border-radius: 22px;
+    }
+
+    .profile-img {
+      gap: 8px;
+      margin: 8px 0;
+
+      &:not(:last-child) {
+        border-bottom: 0.6px solid var(--search-icon-bg-clr);
+      }
+
+      img {
+        width: 30px;
+        border-radius: 10px;
+      }
+      p {
+        color: var(--white-clr);
+        font-size: 13px;
+      }
+      .bullish {
+        button {
+          border: none;
+          outline: none;
+          background: rgb(34, 139, 34);
+          font-family: var(--font-medium);
+          padding: 8px 14px;
+          border-radius: 10px;
+          font-size: 12px;
+          color: var(--white);
+          margin: 12px 10px;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

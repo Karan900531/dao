@@ -1,0 +1,153 @@
+.post-a-comment-wrapper {
+  background: var(--background);
+  border-radius: 12px;
+  width: 100%;
+  margin-top: 12px;
+
+  .comment-head {
+    background: var(--drop-down-clr);
+    padding: 8px 14px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    h5 {
+      font-family: var(--font-light);
+      font-size: 12px;
+      letter-spacing: 0.5px;
+    }
+  }
+  .comment-content {
+    padding: 18px 12px;
+    .btns {
+      gap: 6px;
+      padding: 12px 0;
+      button {
+        font-family: var(--font-medium);
+        font-size: 12px;
+        cursor: pointer;
+      }
+    }
+    .choose-input-file {
+      label {
+        svg {
+          width: 18px;
+        }
+        input {
+          display: none;
+        }
+        .flex-item {
+          gap: 6px;
+          background: var(--drop-down-clr);
+          border-radius: 8px;
+          padding: 10px 12px;
+          cursor: pointer;
+          display: flex;
+          flex-direction: column;
+          border: 1px dashed var(--white-clr);
+        }
+      }
+    }
+
+    .error-input {
+      font-size: 12px;
+      color: tomato;
+    }
+    button {
+      background-color: #ffba00;
+      padding: 8px 16px;
+      border: none;
+      border-radius: 10px;
+    }
+    input{
+      background-color: transparent;
+    border: none;
+    height: 40px;
+    margin-bottom: 15px !important;
+    padding: 5px;
+    border-bottom: 2px solid #cccccc;
+    border-radius: 3px;
+    width: 100%;
+    font-size: 14px;
+
+    color:#cccccc;
+    outline: none; /* Remove the outline on focus */
+      &::placeholder {
+        color: #cccccc;
+        font-size: 14px;
+      }
+      &:focus{
+        background-color: transparent;
+        border: none;
+        height: 40px;
+        color:#cccccc;
+    
+        margin-bottom: 10px;
+        padding: 5px;
+        border-bottom: 2px solid #cccccc;
+        border-radius: 3px;
+        width: 100%;
+      }
+    }
+    
+    .ggo{
+      font-family: var(--font-medium);
+      font-size: 14px;
+     
+    }
+
+    label{
+      font-size: 12px;
+      color:#ffba00;
+    }
+textarea {
+      background-color: transparent;
+    border: none;
+    height: 100px;
+    font-family: var(--font-medium);
+
+    margin-bottom: 15px !important;
+    padding: 5px;
+    border-bottom: 2px solid #cccccc;
+    border-radius: 3px;
+    width: 100%;
+    font-size: 14px;
+
+    color:#cccccc;
+    outline: none; /* Remove the outline on focus */
+      &::placeholder {
+        color: #cccccc;
+        font-size: 14px;
+      }
+      &:focus{
+        background-color: transparent;
+        border: none;
+
+        color:#cccccc;
+    
+        margin-bottom: 10px;
+        padding: 5px;
+        border-bottom: 2px solid #cccccc;
+        border-radius: 3px;
+        width: 100%;
+      }
+    }
+    .comment-btn {
+      justify-content: center;
+      margin-top: 12px;
+      button {
+        background-color: #23323c;
+    color:#ffba00;
+    border:1px solid #000;
+    padding:10px 38px;
+    font-size:16px;
+    border-radius:7px;
+    font-weight: 400;
+        cursor: pointer;
+        font-family: var(--font-medium);
+      }
+    }
+  }
+}
+
+.white-icon::-webkit-calendar-picker-indicator {
+  filter: invert(100%);
+}

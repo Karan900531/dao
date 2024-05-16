@@ -1,0 +1,12 @@
+.pair-explorer-wrapper {
+  padding: 12px;
+
+  .grid-item {
+    display: grid;
+    gap: 12px;
+    @media (max-width: 997px) {
+    }
+    @media (max-width: 768px) {
+    }
+  }
+}
